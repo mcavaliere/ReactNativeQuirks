@@ -15,3 +15,13 @@ The latter is a result of Apple enforcing https uris.
 References: 
 * [SO Thread](https://stackoverflow.com/questions/38153335/react-native-loading-image-over-https-works-while-http-does-not-work)
 * [TechRepublic Article](http://www.techrepublic.com/article/wwdc-2016-apple-to-require-https-encryption-on-all-ios-apps-by-2017/)
+
+
+### `this` returns `DedicatedWorkerGlobalScope`
+
+This is sometimes related to ES6 arrow functions. Since they always bind in the scope of their containing function, this isn't always what you expect. One workaround is to use normal functions to bind explicitly. 
+
+References: 
+* [react native - Getting DedicatedWorkerGlobalScope instead of Constructor - Stack Overflow](https://stackoverflow.com/questions/38070268/getting-dedicatedworkerglobalscope-instead-of-constructor)
+* 
+
