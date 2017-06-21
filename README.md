@@ -23,5 +23,18 @@ This is sometimes related to ES6 arrow functions. Since they always bind in the 
 
 References: 
 * [react native - Getting DedicatedWorkerGlobalScope instead of Constructor - Stack Overflow](https://stackoverflow.com/questions/38070268/getting-dedicatedworkerglobalscope-instead-of-constructor)
-* 
+
+
+
+## Plugin Quirks
+
+### react-native-svg
+
+Sometimes setting up this plugin doesn't edit the `project.pbxproj` file correctly, resulting in build failures. 
+
+1. Look at a diff of the `project.pbxproj` file, and make sure the added lines aren't joined together. Some path settings may to be formatted as separate lines. 
+1. You can remove all references to `libRNSVG` in the file if needs be, to remove the plugin completely. 
+
+References: 
+* https://github.com/react-native-community/react-native-svg/issues/366
 
