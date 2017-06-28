@@ -1,6 +1,14 @@
 # ReactNativeQuirks
 A list of React Native nuances I've been discovering. 
 
+### App Store Rejections
+
+Tl;DR: Don't use any plugins that use JSPatch. 
+
+References
+* [The reason why React Native apps may fail App Store review process](https://www.monterail.com/blog/2017/react-native-app-store)
+* [JSPatch | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/jspatch)
+
 ### Invisible Images
 
 Sometimes you'll use an `<Image />` element and RN will allocate visual space for it, but the image itself will not be visible. 
