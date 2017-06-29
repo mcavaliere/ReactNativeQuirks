@@ -8,6 +8,7 @@ Tl;DR: Don't use any plugins that use JSPatch.
 References
 * [The reason why React Native apps may fail App Store review process](https://www.monterail.com/blog/2017/react-native-app-store)
 * [JSPatch | Technology Radar | ThoughtWorks](https://www.thoughtworks.com/radar/languages-and-frameworks/jspatch)
+* [A warning from Apple [resolved, not about React Native] · Issue #12778 · facebook/react-native](https://github.com/facebook/react-native/issues/12778)
 
 ### Invisible Images
 
